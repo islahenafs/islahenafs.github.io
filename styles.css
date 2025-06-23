@@ -3,10 +3,10 @@ body {
   color: rgb(220, 220, 220)
 }
 h1 {
-  color: rgb(240, 240, 240); font-family:consolas; text-align: center;
+  color: rgb(240, 240, 240); font-family:monospace; font-size: 2.5rem; text-align: center;
 }
 h2 {
-  color: rgb(240, 240, 240); font-family:consolas; text-align: center;
+  color: rgb(240, 240, 240); font-family: monospace; font-size: 1.8rem; text-align: center;
 }
 p,ul,ol {
   color: rgb(240, 240, 240); font-family:arial; font-size: 24px; letter-spacing: 0.05em; padding: 20px; text-align: center; line-height: 1.5em;
@@ -15,7 +15,7 @@ table {
   color: rgb(220, 220, 220); font-family:arial; font-size: 0.9em; letter-spacing: 0.05em;
 }
 h3 {
-  color: white; bottom:0; font-family:consolas; width: 100%; text-align: center;
+  color: white; bottom:0; font-family:monospace; font-size: 1.5rem; width: 100%; text-align: center;
 }
 a {
   color: #00ff41;
