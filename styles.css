@@ -35,11 +35,11 @@ button {
     border-radius: 111px;
     font-size: 1.2rem;
 }
-button:hover {
+/* button:hover {
   background-color: transparent;
   color: #ffffff;
   border: 5px solid #000000;
-}
+} */
 .buttons {
   display: flex;
   flex-direction: column;
