@@ -9,7 +9,7 @@ h2 {
   color: rgb(240, 240, 240); font-family: monospace; font-size: 1.8rem; text-align: center;
 }
 p,ul,ol {
-  color: rgb(240, 240, 240); font-family:arial; font-size: 24px; letter-spacing: 0.05em; padding: 5px 20px; text-align: center; line-height: 1.5em;
+  color: rgb(240, 240, 240); font-family:arial; font-size: 24px; letter-spacing: 0.05em; padding: 1px 10px; text-align: center; line-height: 1.5em; list-style-position: inside;
 }
 table {
   color: rgb(220, 220, 220); font-family:arial; font-size: 0.9em; letter-spacing: 0.05em;
