@@ -23,6 +23,7 @@ button.addEventListener('click', function(event) {
   var rnd = Math.floor(Math.random() * quotes.length); // get random index
   hideDivs(quotes); // hide all quotes
   quotes[rnd].style.display = 'block'; // show random quote
+  console.log(quotes[825])
   txt = quotes[rnd].id
   url = "https://islahenafs.github.io/"+txt+'.html'
   shareData = {
