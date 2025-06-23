@@ -9,7 +9,7 @@ h2 {
   color: rgb(240, 240, 240); font-family: monospace; font-size: 1.8rem; text-align: center;
 }
 p,ul,ol {
-  color: rgb(240, 240, 240); font-family:arial; font-size: 24px; letter-spacing: 0.05em; padding: 20px; text-align: center; line-height: 1.5em;
+  color: rgb(240, 240, 240); font-family:arial; font-size: 24px; letter-spacing: 0.05em; padding: 5px 20px; text-align: center; line-height: 1.5em;
 }
 table {
   color: rgb(220, 220, 220); font-family:arial; font-size: 0.9em; letter-spacing: 0.05em;
@@ -35,11 +35,10 @@ button {
     border-radius: 111px;
     font-size: 1.2rem;
 }
-/* button:hover {
-  background-color: transparent;
-  color: #ffffff;
-  border: 5px solid #000000;
-} */
+.quote {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 .buttons {
   display: flex;
   flex-direction: column;
@@ -47,4 +46,11 @@ button {
 }
 .buttons div{
   padding: 10px;
+}
+@media (hover: hover) and (min-width: 992px)  {
+  button:hover {
+    background-color: transparent;
+    color: #ffffff;
+    border: 5px solid #000000;
+  }
 }
