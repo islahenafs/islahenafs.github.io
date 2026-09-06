@@ -13,7 +13,7 @@ hideDivs(quotes); // hide all initially
 var rnd = Math.floor(Math.random() * quotes.length);
 quotes[rnd].style.display = 'block'
 txt = quotes[rnd].id
-url = "https://islahenafs.github.io/"+txt+'.html'
+url = "https://www.darulqulub.com/"+txt+'.html'
 var shareData = {
     url: url,
   };
@@ -25,7 +25,7 @@ button.addEventListener('click', function(event) {
   quotes[rnd].style.display = 'block'; // show random quote
   console.log(quotes[825])
   txt = quotes[rnd].id
-  url = "https://islahenafs.github.io/"+txt+'.html'
+  url = "https://www.darulqulub.com/"+txt+'.html'
   shareData = {
     url: url,
   };
