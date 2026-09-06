@@ -1,0 +1,88 @@
+body {
+  background-color: black;
+  color: rgb(220, 220, 220);
+  padding: 0px 100px;
+  
+}
+h1 {
+  color: rgb(240, 240, 240); font-family:monospace; font-size: 2.5rem; text-align: center;
+}
+h2 {
+  color: rgb(240, 240, 240); font-family: monospace; font-size: 1.8rem; text-align: center;
+}
+p,ul,ol,.chapters {
+  color: rgb(240, 240, 240); font-family: "Gill Sans"; font-size: 1.5rem; letter-spacing: 0.05em; padding: 1px 10px; text-align: justify; line-height: 1.25em; list-style-position: inside;
+}
+.chapters, .chapters > p {
+  
+  text-align: center;
+  font-size: 1.2rem;
+}
+table {
+  color: rgb(220, 220, 220); font-family:arial; font-size: 0.9em; letter-spacing: 0.05em;
+}
+h3 {
+  color: white; bottom:0; font-family:monospace; font-size: 1.5rem; width: 100%; text-align: center;
+}
+a {
+  color: #00ff41;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+button {
+ 
+  display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+    color: #000000;
+    border: 5px solid rgb(240, 240, 240);
+    border-radius: 111px;
+    font-size: 1.2rem;
+}
+#share {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px; /* icon needs less horizontal room than text */
+}
+
+#share svg {
+  display: block;
+}
+.quote {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.quote > p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.buttons div{
+  padding: 10px;
+}
+@media (hover: hover) and (min-width: 992px)  {
+  button:hover {
+    background-color: transparent;
+    color: #ffffff;
+    border: 5px solid #000000;
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0px 30px
+  }
+  p {
+    font-size: 1.2rem; letter-spacing: 0.05em; 
+    text-align: left;
+  }
+  
+}
