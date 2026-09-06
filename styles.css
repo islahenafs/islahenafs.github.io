@@ -1,46 +1,65 @@
+:root {
+  --bg-color: #CDEBF7;
+  --bg-color2: rgb(246,245,240);
+  --text-color: black;
+  /*3E4095 5CF4E7 CDEBF7 35BEC7 007842 00A759 00783A*/
+  --link-color: #007842;
+  --btn-bg-color: #35BEC7;
+  --btn-text-color: white;
+  --btn-outline-color: #35BEC7;
+}
+
 body {
-  background-color: black;
-  color: rgb(220, 220, 220);
+  background-color: var(--bg-color);
+  color: var(--text-color);
   padding: 0px 100px;
   
 }
 h1 {
-  color: rgb(240, 240, 240); font-family:monospace; font-size: 2.5rem; text-align: center;
+  color: var(--text-color); font-family:monospace; font-size: 2.5rem; text-align: center;
 }
 h2 {
-  color: rgb(240, 240, 240); font-family: monospace; font-size: 1.8rem; text-align: center;
+  color: var(--text-color); font-family: monospace; font-size: 1.8rem; text-align: center;
 }
 p,ul,ol,.chapters {
-  color: rgb(240, 240, 240); font-family: "Gill Sans"; font-size: 1.5rem; letter-spacing: 0.05em; padding: 1px 10px; text-align: justify; line-height: 1.25em; list-style-position: inside;
+  color: var(--text-color); font-family: "Gill Sans"; font-size: 1.5rem; letter-spacing: 0.05em; padding: 1px 10px; text-align: justify; line-height: 1.25em; list-style-position: inside;
 }
 .chapters, .chapters > p {
   
   text-align: center;
   font-size: 1.2rem;
 }
+
 table {
-  color: rgb(220, 220, 220); font-family:arial; font-size: 0.9em; letter-spacing: 0.05em;
+  color: var(--text-color); font-family:arial; font-size: 0.9em; letter-spacing: 0.05em;
 }
 h3 {
-  color: white; bottom:0; font-family:monospace; font-size: 1.5rem; width: 100%; text-align: center;
+  color: black; bottom:0; font-family:monospace; font-size: 1.5rem; width: 100%; text-align: center;
 }
 a {
-  color: #00ff41;
+  color: var(--link-color);
   text-decoration: none;
+  font-weight: 600;
 }
 a:hover {
   text-decoration: underline;
 }
+h3 > a {
+  font-weight: 600;
+  
+}
 button {
  
-  display: inline-block;
+    display: inline-block;
     padding: 10px 20px;
     cursor: pointer;
-    background-color: rgb(240, 240, 240);
-    color: #000000;
-    border: 5px solid rgb(240, 240, 240);
+    background-color: var(--btn-bg-color);
+    color: var(--btn-text-color);
+    border: 5px solid var(--btn-outline-color);
     border-radius: 111px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
 }
 #share {
   display: inline-flex;
@@ -72,13 +91,13 @@ button {
 @media (hover: hover) and (min-width: 992px)  {
   button:hover {
     background-color: transparent;
-    color: #ffffff;
-    border: 5px solid #000000;
+    color: var(--text-color);
+    border: 5px solid var(--text-color);
   }
 }
 @media screen and (max-width: 600px) {
   body {
-    padding: 0px 30px
+    padding: 0px 25px
   }
   p {
     font-size: 1.2rem; letter-spacing: 0.05em; 
